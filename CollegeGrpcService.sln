@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeGrpcService", "CollegeGrpcService\CollegeGrpcService.csproj", "{2250D635-9C4A-4F72-A6A8-7F3039AC6F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollegeGrpcService", "CollegeGrpcService\CollegeGrpcService.csproj", "{2250D635-9C4A-4F72-A6A8-7F3039AC6F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeAPI", "CollegeAPI\CollegeAPI.csproj", "{14DCF5CA-D7A6-4D19-B2AC-02F5AE820505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2250D635-9C4A-4F72-A6A8-7F3039AC6F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2250D635-9C4A-4F72-A6A8-7F3039AC6F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2250D635-9C4A-4F72-A6A8-7F3039AC6F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DCF5CA-D7A6-4D19-B2AC-02F5AE820505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DCF5CA-D7A6-4D19-B2AC-02F5AE820505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DCF5CA-D7A6-4D19-B2AC-02F5AE820505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DCF5CA-D7A6-4D19-B2AC-02F5AE820505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
