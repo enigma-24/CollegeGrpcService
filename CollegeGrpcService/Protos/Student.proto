@@ -1,0 +1,26 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option csharp_namespace = "CollegeGrpcService.Protos";
+
+service Student{
+	rpc GetStudent(StudentIdRequest) returns (StudentReply);
+    rpc GetAllStudents(google.protobuf.Empty) returns (Students);
+    rpc AddStudent(StudentReply) returns (google.protobuf.Empty);
+}
+
+message StudentIdRequest {
+	int32 StudentID = 1;
+}
+
+message StudentReply {
+	int32 StudentID = 1;
+	string Name = 2;
+}
+
+message Students {
+	repeated StudentReply Stu = 1;
+}
+
+
+
+

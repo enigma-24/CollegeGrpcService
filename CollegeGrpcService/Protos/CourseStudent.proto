@@ -1,0 +1,4 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option csharp_namespace = "CollegeGrpcService";
+

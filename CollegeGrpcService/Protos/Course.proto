@@ -1,0 +1,22 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option csharp_namespace = "CollegeGrpcService.Protos";
+
+service Course {
+	rpc GetCourse(CourseIdRequest) returns (CourseReply);	
+	rpc GetAllCourses(google.protobuf.Empty) returns (Courses);
+    rpc AddCourse(CourseReply) returns (google.protobuf.Empty);
+}
+
+message CourseIdRequest {
+	int32 CourseID = 1;
+}
+
+message CourseReply {
+	int32  CourseID = 1;
+	string CourseName = 2;
+}
+
+message Courses {
+	repeated CourseReply reply = 1;
+}
